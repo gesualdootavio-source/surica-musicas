@@ -6,8 +6,10 @@ const Dashboard = ({ musicas }) => {
   const disponiveis = musicas.filter((m) => m.status === "Disponível");
   const indisponiveis = musicas.filter((m) => m.status === "Indisponível");
 
-  // slice() — método adicional, pega só as 3 músicas mais recentes (últimas adicionadas)
-  const recentes = musicas.slice(-3).reverse();
+  const idsMusicasRecentes = [2, 4, 5];
+  const recentes = idsMusicasRecentes
+    .map((id) => musicas.find((musica) => musica.id === id))
+    .filter(Boolean);
 
   return (
     <div className="p-4 md:p-8">
