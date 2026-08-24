@@ -72,4 +72,28 @@ export const musicasIniciais = [
     duracao: "03:42",
     status: "Disponivel",
   },
+  {
+    id: 10,
+    titulo: "Feel Good Inc",
+    artista: "Gorillaz",
+    genero: "Hip-Hop / Rock alternativo",
+    duracao: "03:41",
+    status: "Disponivel",
+  },
+  {
+    id: 11,
+    titulo: "It Was a Good Day",
+    artista: "Ice Cube",
+    genero: "Hip-Hop",
+    duracao: "04:20",
+    status: "Disponivel",
+  },
+   {
+    id: 12,
+    titulo: "Back to Your Place",
+    artista: "October London",
+    genero: "R&B contemporâneo e Soul / Smooth Soul",
+    duracao: "03:22",
+    status: "Disponivel",
+  },
 ];
